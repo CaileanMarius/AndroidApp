@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AndroidApplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="videogame_list_fragment_label">VideoGame List</string>
+    <string name="videogame_edit_fragment_label">VideoGame Edit</string>
+    <string name="edit">Edit Videogame</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="videogame_list_fragment">VideoGame list fragment</string>
+    <string name="videogame_edit_fragment">VideoGame edit fragment</string>
 </resources>

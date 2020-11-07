@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination = "@id/VideoGameListFragment">
+
+    <fragment
+        android:id="@+id/VideoGameListFragment"
+        android:name="com.CaileanMarius.androidapplication.VideoGameListFragment"
+        android:label="@string/videogame_edit_fragment_label"
+        tools:layout="@layout/fragment_videogame_list">
+
+        <action
+            android:id="@+id/action_VideoGameListFragment_to_VideoGameEditFragment"
+            app:destination="@+id/VideoGameEditFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/VideoGameEditFragment"
+        android:name="com.CaileanMarius.androidapplication.VideoGameEditFragment"
+        android:label="@string/videogame_edit_fragment_label"
+        tools:layout="@layout/fragment_videogame_edit">
+
+        <action
+            android:id="@+id/action_VideoGameEditFragment_to_VideoGameListFragment"
+            app:destination="@+id/FirstFragment"/>
+    </fragment>
+
+
+</navigation>
