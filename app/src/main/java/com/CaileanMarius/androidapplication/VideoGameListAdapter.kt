@@ -39,6 +39,7 @@ class VideoGameListAdapter (
         val view  = LayoutInflater.from(parent.context)
             .inflate(R.layout.view_videogame,parent,false)
         Log.v(TAG, "onCreateViewHolder")
+        Log.v(TAG, "onCreateViewHolder#2")
         return ViewHolder(view)
     }
 
